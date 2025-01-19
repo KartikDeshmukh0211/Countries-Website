@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+<body >
+    <header class="cmn">
+        <div>
+            <h1 class="title"><a href="/Project/index.html">Where in the world?</a></h1>
+            <p class="theme-changer"><i class="fa-regular fa-moon"></i><span class="dark-mode">Dark Mode</span></p>
+        </div>
+    </header>
+
+    <main>
+        <div class="search-filter-container">
+            <div class="search cmn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search for a country...">
+            </div>
+
+            <select class="filter cmn">
+                <option hidden>Filter by Region</option>
+                <option value="Africa">Africa</option>
+                <option value="America">America</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+        </div>
+
+        <div class="countries-container">
+            <!-- <a href="#" class="country-card">
+                <div class="img-container">
+                    <img src= "${ele.flags.svg}" alt="flag">
+                </div>
+                <div class="card-txt">
+                    <h3>Combodia</h3>
+                    <p><b>population: </b>81,400,545</p>
+                    <p><b>region: </b>dffd</p>
+                    <p><b>capital: </b>xyz</p>
+                </div>
+            </a> -->
+        </div>
+    </main>
+</body>
+</html>
