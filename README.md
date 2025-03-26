@@ -1,6 +1,5 @@
 # Countries Information Website
 
-## 🌍 Overview
 This website allows users to find detailed information about countries worldwide. Users can explore various details like population, capital, currency, languages, and more.
 
 ## 🚀 Features
@@ -10,7 +9,8 @@ This website allows users to find detailed information about countries worldwide
 - Responsive design for mobile and desktop users.
 
 🔗 **Live Demo:** [all-about-countries.netlify.app](https://all-about-countries.netlify.app/).
-If you are using this url for the first time then it may take more time for the data fetching!!
-If still you are facing issue use this url instead
+- If you are using this url for the first time then it may take more time for the data fetching!! 
 
-🔗 **Live Demo:** [all-about-countries02.netlify.app](https://all-about-countries02.netlify.app/).
+- If still you are facing issue use this url instead
+
+🔗 **Live Demo 2:** [all-about-countries02.netlify.app](https://all-about-countries02.netlify.app/).
